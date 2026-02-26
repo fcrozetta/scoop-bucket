@@ -1,0 +1,17 @@
+{
+  "version": "0.0.3",
+  "description": "Kubeforward - forwarding ports with kubectl",
+  "homepage": "https://github.com/fcrozetta/kubeforward",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/fcrozetta/kubeforward/releases/download/$version/kubeforward-$version-windows-x64.zip",
+      "hash": "sha256:b4c7064a3dba5676e001ccd4030f5ed8eabd157d5abf91b8a0df65c9bb396f92"
+    },
+    "arm64": {
+      "url": "https://github.com/fcrozetta/kubeforward/releases/download/$version/kubeforward-$version-windows-arm64.zip",
+      "hash": "sha256:49c4a1928084b7544c2e2dbbd99c2071fbefe09bfa8d28f4519bc2ae385e6f9e"
+    }
+  },
+  "bin": "kubeforward.exe"
+}
